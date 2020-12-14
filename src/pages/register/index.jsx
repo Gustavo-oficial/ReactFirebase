@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {Container,  form, Button, Form} from 'react-bootstrap';
 import {useFirebaseApp} from 'reactfire';
+import './index.css';
+
    const Cadastrar = () => {
        const firebase = useFirebaseApp();
        
